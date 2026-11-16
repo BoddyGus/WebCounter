@@ -1,6 +1,5 @@
 from flask import Flask, redirect, render_template, request
-from Webcounter.WebCounter.src.counter import Counter
-
+from counter import Counter
 app = Flask(__name__)
 cnt = Counter()
 
